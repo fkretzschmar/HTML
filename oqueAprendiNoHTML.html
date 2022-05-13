@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Aha-Soft-Desktop-Halloween-Skull-and-bones.ico" type="image/x-icon">
+    <title>Oque Aprendi no HTML</title>
+</head>
+<body>
+        <h1>Oque Aprendi no HTML</h1>
+          <h2>Meu primeiro Portfólio</h2>
+    <p>Nesse projeto irei demonstra todo o meu conhecimento no <abbr title="Hypertext Markup Language">HTML</abbr>, adquiri essas informações em dois cursos,<br> o primeiro é a <a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a> o segundo foi com o youtuber chamado Guanabara no canal <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Curso em Video</a>.</p>
+    <p>Segue abaixo o Menu.</p>
+        <div id="menu">
+            <hr>
+        <h2>Menu</h2>
+        <ol>
+            <li><a href="#primeirospassos">Primeiros Passos</a></li>
+            <li><a href="#doctype">Doctype</a></li>
+            <li><a href="#entities">Entities</a></li>
+            <li><a href="#emojis">Emojis</a></li>
+            <li><a href="#favicon">Favicon</a></li>
+            <li><b>Tags:</b></li>
+            <ul>
+                <li><a href="#h1h2h3h4h5h6">&lt;h1&gt;|&lt;h2&gt;|&lt;h3&gt;|&lt;h4&gt;|&lt;h5&gt;|&lt;h6&gt;</a></li>
+                <li><a href="#p">Tag &lt;p&gt; e &lt;br&gt;</a></li>
+                <li><a href="#imagem">Tag &lt;img&gt;</a></li>
+                <li><a href="#a">Tag &lt;a&gt;</a></li>
+                <li><a href="#div">Tag &lt;div&gt;</a></li>
+                <li><a href="#mark">Tag &lt;mark&gt;</a></li>
+                <li><a href="#del">Tag &lt;del&gt;</a></li>
+                <li><a href="#ins">Tag &lt;ins&gt;</a></li>
+                <li><a href="#ol">Tag &lt;ol&gt; e &lt;ul&gt;</a></li>
+                <li><a href="#sup">Tag &lt;sup&gt; e &lt;sub&gt;</a></li>
+                <li><a href="#code">Tag &lt;/code&gt;</a></li>
+                <li><a href="#q">Tag &lt;q&gt;</a></li>
+                <li><a href="#abbr">Tag &lt;abbr&gt;</a></li>
+                <li><a href="#iframe">Tag &lt;iframe&gt;</a></li>
+                <li><a href="#dl">Tag &lt;dl&gt;</a></li>
+                <li><a href="#b">Tag &lt;b&gt;</a></li>
+            </ul>
+            <li><a href="#fim">Fim</a></li>
+            
+
+        </ol>
+
+        </div>
+    <hr>
+        <div id="primeirospassos">
+        <h3><u>Primeiros Passos</u></h3>
+        <p>Primeiro precisamos baixar o programa que vamos utilizar <a href="https://code.visualstudio.com/"target="_blank"><abbr title="Visual Studio Code">VSCode</abbr></a>.</p>
+        <p>Na segunda etapa vamos stalar algumas expansões no <abbr title="Visual Studio Code">VSCode</abbr> abaixo:</p>
+            <ul>
+                <li><u>Dracula </u>- Deixa seu código colorido ajudando a melhor visualização.</li>
+                <li><u>Visual Studio Intellicode</u> - Ao iniciar uma tag ele te ajuda completar.</li>
+                <li><u>Bracket Pair Colorizer 2 </u>- Te ajuda a visualizar os parênteses colorindo os mesmos.</li>
+                <li><u>Auto Rename Tag</u> - Quando você alterar a tag de inicio, ira afetar a tag de fechamento.</li>
+            </ul>
+            <p>Todo projeto iniciado deve ter o .html no final para você conseguir visualizar em algum navegador.</p>
+            <a href="#menu">Menu</a>    
+        </div>
+    <hr>
+    <div id="doctype">
+            <h3><u>!DOCTYPE</u></h3>
+        <p>Se dentro do arquivo você aperta ! e aperta enter ele vai trazer o codigo base de <br> html5 veja exemplo abaixo. </p>
+        <img src="https://2.bp.blogspot.com/-hbNp25G64pg/VpzNt6N0g_I/AAAAAAAALAs/0aAFijhAMtg/s1600/doctype%2Bin%2BHTML5.png" alt="html5" title="html5" height="200" width="350">
+        <p>Conforme imagem a cima o html é o corpo do site, dentro do html você pode colocar <u>lang</u> <br> aonde você informa a linguagem que sera utilizada no site então ficaria assim (<mark>&lt;html lang="pt-br"&gt</mark>;).</p>
+        <p>O <b>&lt;head&gt;</b> é aonde fica todas as configurações da página, achamos o <u>charset</u> lá que é um atributo que serve <br> para dizer pro nosso navegador qual vai ser a codificação de caracteres, cada idioma tem seus caracteres <br> mais para o navegador reconhecer os caracteres brasileiro utilizamos o <mark>UTF-8</mark>. </p>
+        <p>Dentro do <b>&lt;head&gt;</b> encontramos também o <u>title</u> aonde informamos o nome da página, que ficara escrito <br> la em cima na aba. </p>
+        <p>Por fim temos a tag <b>&lt;body&gt;</b> dentro do mesmo fica todo o conteudo do site que podemos interagir e visualizar.</p>
+        <a href="#menu">Menu</a>
+    
+        </div>
+                    <hr>
+            <div id="entities">
+                <h3><u>HTML Entities</u></h3>
+                    <p>Entities serve para fazer simbolos dentro do <abbr title="Hypertext Markup Language">HTML</abbr> que podera ser visualizado no site.</p>
+                        <p><mark><u>Exemplo:</u>1:&lt;|2:&gt;|3:&sum;|4:&Delta;</mark></p>
+                        <p>O código para fazer os exemplos acima inicia com & e termina com ; desconsidere o sinal de + no código.</p>
+                        <p><mark>Código:1:&+lt+;|2:&+gt+;|3:&+sum+;|4:&+Delta+;</mark></p>
+            <p>Para aprender mais entities entre em <a href="https://www.w3schools.com/html/html_entities.asp"target="_blank">w3schools</a></p>
+            <a href="#menu">Menu</a>
+                </div>
+                        <hr>
+        <div id="emojis">
+            <h3><u>Emojis</u></h3>
+            <p>Para você criar um <b>emoji</b> e seu texto basta você tem o codigo dele, você encontra varios deles na <a href="https://www.w3schools.com/html/html_emojis.asp"target="_blank">w3schools</a>.</p>
+            <p>Se no código tiver o U desconsidere o mesmo, copie os numeros e coloque apos o &# não podemos esquecer do ; se não ele não reconhece.</p>
+            <p>Então ele vai ficar assim (<mark>&#+128516+;</mark>)desconsidere o sinal de +. </p>
+            <p>O emojii vai sair assim &#128516;.</p>
+            <a href="#menu">Menu</a>   
+        </div>
+                    <hr>
+                    <div id="favicon">
+                        <h3><u>Favicon</u></h3>
+                        <p>Você já reparou ali em cima na frente do titulo da pagina a maioria dos sites tem um desenho <br> pequeno ele é chamado de favicon</p>
+                        <p>Para você fazer isso é necessário baixar um favicon ou você pode criar o seu próprio favicon <br>no site <a href="https://favicon.io/">favicon.io</a>.</p>
+                        <p>Após baixar e exportar o favicon insira o mesmo na pasta que esta seu arquivo <abbr title="Hypertext Markup Language">html</abbr>.</p>
+                        <p>Em seguida você vai la em cima no <b>&lt;head&gt;</b>, em cima do title você escreve link e vai puxar <br>(link.favicon) então o código vai ficar conforme exemplo abaixo.</p>
+                        <h4>Código:</h4>
+                        <p><mark>&lt;link rel="shortcut icon" href="<b>Aqui você aperta Ctrl+Espaço e escolha o favicon</b>" type="image/x-icon"&gt;</mark></p>
+                        <img src="https://i.imgur.com/UVG19KK.png" alt="favicon"title="Favicon"height="200" width="700">
+                    </div>
+                    <a href="#menu">Menu</a>
+                    <hr>
+        <div id="h1h2h3h4h5h6">
+            <h3><u>&lt;h1&gt;|&lt;h2&gt;|&lt;h3&gt;|&lt;h4&gt;|&lt;h5&gt;|&lt;h6&gt;</u></h3>
+            <p>Os hs são utilizados para você escrever os titulos da sua pagina é importante seguir <br> a hierarquia segue abaixo exemplo.</p>
+            <h1>h1</h1>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <h4>h4</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
+            <a href="#menu">Menu</a>
+        </div>
+    <hr>
+            <div id="p">
+                <h3><u>Tag &lt;p&gt; e &lt;br&gt;</u></h3>
+                <p>A tag <b>&lt;p&gt;</b> é aonde colocamos o texto que iremos apresentar, a tag <b>&lt;br&gt;</b> <br> serve para quebrar o texto para linha de baixo.</p>
+                <p>Segue dois exemplos abaixo o ex1 não vai ter a tag <b>&lt;br&gt;</b> o segundo ex2 vai ter.</p>
+                <p>Exemplo:</p>
+                <p>1:A Segunda Guerra Mundial foi um conflito militar global que durou de 1939 a 1945, envolvendo a maioria das nações do mundo — incluindo todas as grandes potências — organizadas em duas alianças militares opostas: os Aliados e o Eixo.</p>
+                <p>2:A Segunda Guerra Mundial foi um conflito militar global que durou de 1939 a 1945, <br> envolvendo a maioria das nações do mundo — incluindo todas as grandes potências — <br> organizadas em duas alianças militares opostas: os Aliados e o Eixo.</p>
+                <a href="#menu">Menu</a>
+            </div>
+            <hr>
+    <div id="imagem">
+        <h3><u>Tag &lt;img&gt;</u></h3>
+    <p>Para colocarmos uma imagem em nosso site basta usar a tag <b>&lt;img&gt;</b> conforme código abaixo.</p>
+    <h4>Código:</h4>
+    <p>&lt;<mark style="background-color:rgb(255, 164, 164) ;">img src</mark>="Aqui dentro vai o link da imagem ou a imagem no formato png ou jpeg no seu computador"</p>
+    <p>&lt;img src="" <mark style="background-color:rgb(255, 248, 146) ;">height</mark>="aqui você marca a altura da imagem" <mark style="background-color:rgb(172, 252, 152) ;">width</mark>="nesse campo a largura"</p>
+    <p>&lt;img src="" <mark style="background-color:rgb(129, 253, 253) ;">alt</mark>="Se a imagem der um erro você informa nesse campo sobre oque se trata a imagem"</p>
+    <p>img src="" <mark style="background-color:rgb(255, 147, 223) ;">title</mark>="Quando passar o mouse por cima da imagem vai aparecer oque for escrito aqui"</p>
+    <p><u>Código completo</u>:&lt;<mark style="background-color:rgb(255, 164, 164) ;">img src</mark>="https://cdn.pixabay.com/photo/2013/07/04/11/04/google-images-143148_960_720.png" <mark style="background-color:rgb(138, 247, 255) ;">alt</mark>="Imagem Google" <mark style="background-color:rgb(255, 140, 236) ;">title</mark>="Google" <mark style="background-color:rgb(249, 255, 164) ;">height</mark>="300" <mark style="background-color:rgb(150, 248, 147) ;">width</mark>="300"&gt;</p>
+    <p><u>Imagem Google:</u></p>
+    <img src="https://cdn.pixabay.com/photo/2013/07/04/11/04/google-images-143148_960_720.png" alt="Imagem Goole" title="Google" height="300" width="300">
+    <p>Caso você queira colocar uma imagem que já tem no seu computador a mesma tem que estar na pasta do seu arquivo html.</p>
+    <p>Na organização do seu projedo você pode estar criando uma nova pasta para deixar as imagens.</p>
+    <p>Então o código ficaria assim:<b>&lt;img src="imagem/foto1.png"&gt;</b></p>
+    <p>É importante você sabe que ao cria um site você tem que verificar se as imagens utilizadas <br> é de domínio público pois você pode acabar se esbarrando nos direito autorais.</p>
+    <p>Segue abaixo alguns sites para procura de imagens de domínio público.</p>
+    <ul>
+        <li><a href="https://unsplash.com/"target="_blank">UnSplash</a></li>
+        <li><a href="https://www.pexels.com/pt-br/"target="_blank">Pexels</a></li>
+        <li><a href="https://br.freepik.com/"target="_blank">FreePik</a></li>
+        <li><a href="https://www.rawpixel.com/"target="_blank">Rawpixel</a></li>
+        <li><a href="https://pixabay.com/pt/"target="_blank">Pixabay</a></li>
+        <li><a href="https://libreshot.com/"target="_blank">Libreshot</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/Main_Page"target="_blank">Wikimedia Commons</a></li>
+        <a href="#menu">Menu</a>
+    <hr>   
+ <div id="a">
+        <h3><u>Tag &lt;a&gt;</u></h3>
+        <p>A tag a é utilizada para criar um link em seu texto, aonde ao clicar ira direcionar você para outro site<br> podemos também criar um link para direcionar o usuario para partes do seu site eu vó explicar <br> isso lá na tag div no conteudo logo abaixo.</p>
+        <p>Primeiro vamos criar um link do google em nosso texto logo abaixo.</p>
+        <h4>Código:</h4>
+        <p>&lt;a href="<mark style="background-color:rgb(195, 255, 155) ;">Aqui informamos o link que sera direcionado</mark>"&gt;<mark>Agora informamos o nome do site</mark>&lt;a&gt;</p>
+        <p>&lt;a href="<mark style="background-color:rgb(155, 255, 164) ;">https://www.google.com.br/</mark>"&gt;<mark>Google</mark>&lt;a&gt;</p>
+        <p><a href="https://www.google.com.br/">Google</a></p>
+        <a href="#menu">Menu</a>   
+        </div>
+        <hr>
+        <div id="div">
+            <h3><u>Tag &lt;div&gt;</u></h3>
+            <p>Nessa tag conseguimos agrupar duas ou mais imagens e também imagens com texto.</p>
+        <h4>Código:</h4>
+        <p>&lt;div&gt;</p>
+        <p>&lt;img src="https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png"&gt;</p>
+        <p>&lt;img src="https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png"&gt;</p>
+        <p>&lt;/div&gt;</p>
+        <div>
+        <img src="https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png" alt="google" height="200"width="200" title="Google">
+        <img src="https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png" alt="google" height="200"width="200" title="Google">
+        </div>
+        <p>Podemos também nomear esse div dessa forma &lt;div id="aqui informa o nome da div"&gt;.</p>
+        <p>Exemplo:&lt;div id="<mark>parte1</mark>"&gt;</p>
+        <p>Nesse caso podemos ligar duas tags &lt;a&gt; com a &lt;div&gt;</p>
+        <p>Então podemos criar links para varias partes do nosso texto segue abaixo.</p>
+        <p>&lt;a href="<mark>#parte1</mark>"&gt;nome do link(Parte1)&lt;/a&gt;</p>
+        <a href="#menu">Menu</a> 
+        </div>
+         
+        <hr>
+            <div id="mark">
+                <h3><u>Tag &lt;mark&gt;</u></h3>
+                <p>A tag <b>mark</b> é utilizada para marcar partes que você queira um destaque colorido, a cor <br> padrão é <mark>amarela</mark>, mais podemos alterar a cor com <b>style</b> conforme código abaixo.</p>
+                <h4>Código:</h4>
+                <p><b>&lt;mark style="background-color:red ;"&gt;amarela&lt;/mark&gt; </b></p>
+                <p><mark style="background-color:red ;">amarela</mark></p>
+                <p>Podemos alterar com mais facilidade a cor dentro do background-color vai ter um quadrado que você consegui mudar a cor. </p>
+                <a href="#menu">Menu</a>
+            </div>
+    <hr>
+    <div id="small">
+        <h3><u>Tag &lt;small&gt;</u></h3>
+        <p>Para Fazer seu texto ficar com letras pequenas utilize a tag <b>&lt;small&gt;</b>.</p>
+        <p><u>Exemplo:</u></p>
+        <small>Para Fazer seu texto ficar com letras pequenas utilize a tag <b>&lt;small&gt;</b>.</small>
+    </div>
+        <a href="#menu">Menu</a>
+<hr>
+            <div id="del">
+                <h3><u>Tag &lt;del&gt;</u></h3>
+                <p>A tag <b>del</b> você utiliza na parte do texto em que não deve ser considerado.</p>
+                <p><u>Exemplo;</u></p>
+                <del>A tag <b>del</b> você utiliza na parte do texto em que não deve ser considerado.</del>
+            </div>
+    <a href="#menu">Menu</a>
+    <hr>
+        <div id="ins">
+            <h3><u>Tag &lt;ins&gt;</u></h3>
+            <p>A tag <b>ins</b> serve para adicionar um novo texto.</p>
+            <p><u>Exemplo:</u></p>
+            <ins>A tag <b>ins</b> serve para adicionar um novo texto.</ins>
+        </div>
+    <a href="#menu">Menu</a>
+    <hr>
+        <div id="ol">
+            <h3><u>Tag &lt;ol&gt; e &lt;ul&gt;</u></h3>
+            <p>A tag <u>ol</u> e <u>ul</u> serve para listar uma quantidade de itens, dentro da tag <u>ol</u> ou <u>ul</u> cada item deve ser separado dentro da tag por outra tag a <b>&lt;li&gt;</b> segue exemplo abaixo. </p>
+            <h4>Código:</h4>
+            <p>&lt;ol&gt;</p>
+            <p>&lt;li&gt;Ana&lt;/li&gt;</p>
+            <p>&lt;li&gt;Felipe&lt;/li&gt;</p>
+            <p>&lt;li&gt;Carlos&lt;/li&gt;</p>
+            <p>&lt;/ol&gt;</p>
+
+            <h4>Exemplo ol:</h4>
+            <ol>
+                <li>Ana</li>
+                <li>Felipe</li>
+                <li>Carlos</li>
+            </ol>
+            <h4>Exemplo ul:</h4>
+            <ul> 
+                <li>Ana</li>
+                <li>Felipe</li>
+                <li>Carlos</li>
+            </ul>
+
+        </div>
+    <a href="#menu">Menu</a>
+    <hr>
+    <div id="sup">
+        <h3><u>Tag &lt;sup&gt; e &lt;sub&gt;</u></h3>
+        <p>A tag <b>&lt;sup&gt;</b> serve para deixar o texto sobrescrito, e a tag <b>&lt;sub&gt;</b> serve para deixar o texto subscrito segue exemplo abaixo.</p>
+        <h4>Exemplo&lt;sup&gt;:</h4>
+        <p>x&lt;sup&gt;20&lt;/sup&gt;+3</p>
+        x<sup>20</sup>+3
+        <h4>Exemplo&lt;sub&gt;:</h4>
+        <p>H&lt;sub&gt;2&lt;/sub&gt;O</p>
+        <p>H<sub>2</sub>O</p>
+    </div>
+    <a href="#menu">Menu</a>
+    <hr>
+            <div id="code">
+                <h3><u>Tag &lt;/code&gt;</u></h3>
+                <p>Para deixar as letras com o mesmo espaçamento utilize a tag <b>&lt;/code&gt;</b>.</p>
+            </div>
+            <a href="#menu">Menu</a>
+            <hr>
+    <div id="q">
+        <h3><u>Tag &lt;q&gt;</u></h3>
+        <p>Para fazer uma sitação dentro do seu texto utilize a tag <b>&lt;q&gt;</b> segue exemplo abaixo. </p>
+        <h4>Exemplo:</h4>
+        <p>&lt;q&gt;Olá Mundo&lt;/q&gt;</p>
+        <p><q>Olá Mundo</q></p>       
+    </div>
+    <a href="#menu">Menu</a>
+    <hr>
+            <div id="abbr">
+                <h3><u>Tag &lt;abbr&gt;</u></h3>
+                <p>Essa tag é utilizada para colocar o nome completo nas abreviações conforme exemplo abaixo.</p>
+                <h4>Exemplo:</h4>
+                <p><mark>&lt:abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;</mark></p>
+                <p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+            </div>
+    <a href="#menu">Menu</a>
+        <hr>
+        <div id="iframe">
+            <h3><u>Tag &lt;iframe&gt;</u></h3>
+            <p>A tag <b>&lt;iframe&gt;</b> serve para mostrar uma imagem de uma localização no <a href="https://www.google.com.br/maps">googlemaps</a>, <br> para isso será <mark>necessário você copiar o link da localização</mark>, você consegue o mesmo clicando na localização <br> e indo em compartilhar ali estara o link da localização segue exemplo abaixo.</p>
+            <h4>Exemplo:</h4>
+            <p>&lt;iframe src="<mark>https://g.page/magalu-agu-580-osasco-sp?share</mark>"alt="Americanas Osasco"height="300"width="300"title="Americanas"&gt;&lt;/iframe&gt;</p>
+            <iframe src="https://g.page/magalu-agu-580-osasco-sp?share"alt='Americanas Osasco'height="300"width="300"title="Americanas"></iframe>        
+
+
+        </div>
+        <a href="#menu">Menu</a>
+        <hr>
+        <div id="dl">
+            <h3><u>Tag &lt;dl&gt;</u></h3>
+            <p>A tag <b>&lt;dl&gt;</b> é usada para criar uma lista de definições ela lembra a tag <u>ul</u> e <u>ol</u>,  <br> dentro dela usamos a tag <b>&lt;dt&gt;</b> e <b>&lt;dd&gt;</b> segue exemplo abaixo. </p>
+            <h4>Código:</h4>
+            <p>&lt;dl&gt;</p>
+            <p>&lt;dt&gt;HTML&lt;/dt&gt;</p>
+            <p>&lt;dd&gt;HTML é uma linguagem de marcação para criar conteúdo no site.&lt;/dd&gt;</p>
+            <p>&lt;dt&gt;CSS&lt;/dt&gt;</p>
+            <p>&lt;dd&gt;CSS é uma linguagem de marcação para criar design no site.&lt;/dd&gt;</p>
+            <p>&lt;/dl&gt;</p>
+            <h4>Exemplo:</h4>
+            <dl>
+                <dt><b>HTML</b></dt>
+                <dd>HTML é uma linguagem de marcação para criar conteúdo no site.</dd>
+                <dt><b>CSS</b></dt>
+                <dd>CSS é uma linguagem de marcação para criar design no site.</dd>
+            </dl>
+
+        </div>
+        <a href="#menu">Menu</a>
+        <hr>
+        <div id="b">
+            <h3>Tag &lt;b&gt;</h3>
+            <p>A tag <b>&lt;b&gt;</b> serve para deixar as letra em negrito segue exemplo abaixo. </p>
+            <h4>Exemplo:</h4>
+            <p>&lt;b&gt;Olá Mundo!&lt;/b&gt;</p>
+            <p><b>Olá Mundo!</b></p>
+
+        </div>
+        <hr>
+        <div id="fim">
+            <h3><u>Então é isso agora estarei indo aprender CSS.</u></h3>
+            <img src="https://pixnio.com/free-images/2017/03/23/2017-03-23-13-49-09-850x567.jpg" alt="Programador" title="Programador"height="400" width="600">
+
+
+        </div>
+        <a href="#menu">Menu</a>
+
+        </body>
+</html>
